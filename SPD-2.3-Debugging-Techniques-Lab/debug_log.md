@@ -24,8 +24,14 @@ After the routing issue, we now are redirected back to the homepage after we sub
 
 ## Exercise 2
 
-[[Your answer goes here!]]
+I noticed there was a result_json KeyError in the terminal, I used Trace Backward by identifying where result_json['city'] came from. I found the form name mismatch and fixed users_city to city. 
+
+After that the API url had to be changed, I added the city to the url because the city wasn't able to be read from the params object identifying the city. 
+
+Once the API was returning results, the temperature keyError had to be changed to temp.
 
 ## Exercise 3
 
-[[Your answer goes here!]]
+In merge sort, instead of the list index of i, we should have used j for the right side
+
+In the binary search, we needed to use integer division instead of float division to compute the list indexes
