@@ -14,11 +14,10 @@ Exercise 2
 # PART 2: State Assumptions
 #
 # TODO: State your assumptions here or say them out loud to your partner ...
-w
-# - Exp
-# -
-# -
-# -
+# - We expect false, then true, but it prints false false.
+# - no error message
+# -no line number given
+# - we can assume our logic is incorrect, after further digging, on line 28 we compare the 2nd element of the array to the first, which is causing our problem
 
 
 # Make sure to be SPECIFIC about what each of your assumptions is!

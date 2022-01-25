@@ -10,6 +10,12 @@ Exercise 3
 # - What line number is causing the error?
 # - What can you deduce about the cause of the error?
 
+# - expected output is the sorted array printed to the console, we get an error code
+# - list index out of range
+# - line 32
+# - the developer started looping at the wrong spot in the array, for i in range(1, len(arr)) starts the loop at the 2nd number int he array, instead of the beginning.
+
+
 
 # PART 2: State Assumptions
 #
@@ -20,10 +26,10 @@ Exercise 3
 def insertion_sort(arr):
     """Performs an Insertion Sort on the array arr."""
     for i in range(1, len(arr)):
-        key = arr[i] 
+        key = arr[i]
 
         j = i-1
-        while key < arr[j] : 
+        while key < arr[j]: 
             arr[j+1] = arr[j] 
             j -= 1
         arr[j+1] = key
