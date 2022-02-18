@@ -1,3 +1,4 @@
 .env
 tests/__pycache__/
 __pycache__/
+unit-testing/pytest-tut/
